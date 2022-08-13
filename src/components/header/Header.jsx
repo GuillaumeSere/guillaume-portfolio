@@ -11,6 +11,8 @@ const Header = () => {
         <h5>Bonjour, Je m'appelle</h5>
         <h1>Guillaume SERE</h1>
         <h5 className="text-light">Developpeur Front-End</h5>
+        <div className="triangle"></div>
+        <div className="carre"></div>
         <CTA />
         <HeaderSocials />
         <div className="me1">

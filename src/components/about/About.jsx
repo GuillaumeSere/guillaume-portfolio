@@ -50,7 +50,8 @@ const About = () => {
             Intégrer du contenu conformément à une maquette.
             </p>
 
-            <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+            <a href="#contact" className='btn btn-primary'>Contact</a>
+            <div className="triangle2"></div>
         </div>
       </div>
     </section>
