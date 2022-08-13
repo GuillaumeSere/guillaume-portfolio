@@ -20,6 +20,29 @@
     user-select: none;
 }
 
+.triangle3{
+    position: absolute;
+    margin-left: 10rem;
+    margin-top: 10rem;
+    width: 0;
+    height: 0;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+    border-left: 50px solid var(--color-primary);
+    animation: animate-rotate 10s infinite linear;
+}
+
+.carre2{
+    position: absolute;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    margin-right: 10rem;
+    background: var(--color-primary);
+    transform: rotate(45deg);
+    animation: animate-rotate 10s infinite linear;
+}
+
 .client__review{
     color: var(--color-light);
     font-weight: 300;
@@ -37,6 +60,14 @@
 @media screen and (max-width: 1024px){
     .container.container__testimonials{
         width: 60%;
+    }
+
+    .triangle3{
+        display: none;
+    }
+
+    .carre2{
+        display: none;
     }
 }
 

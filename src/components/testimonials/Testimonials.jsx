@@ -48,6 +48,8 @@ const Testimonials = () => {
     <section id="testimonials">
       <h5>Commentaires</h5>
       <h2>Témoignages</h2>
+      <div className="triangle3"></div>
+      <div className="carre2"></div>
 
       <Swiper className="container container__testimonials"
         // install Swiper modules

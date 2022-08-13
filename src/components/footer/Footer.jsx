@@ -9,6 +9,8 @@ const Footer = () => {
   return (
     <footer>
       <a href="#" className='footer__logo'><MdComputer /></a>
+      <div className="triangle4"></div>
+      <div className="carre3"></div>
 
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
