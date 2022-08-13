@@ -11,9 +11,11 @@ import {  Pagination } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+// import required modules
+import { EffectCoverflow} from "swiper";
 
 const data = [
     {
@@ -52,12 +54,19 @@ const Testimonials = () => {
       <div className="carre2"></div>
 
       <Swiper className="container container__testimonials"
-        // install Swiper modules
-        modules={[Pagination]}
-        spaceBetween={40}
-        slidesPerView={1}
-        pagination={{ clickable: true }}
-      >
+             effect={"coverflow"}
+             grabCursor={true}
+             centeredSlides={true}
+             slidesPerView={"auto"}
+             coverflowEffect={{
+               rotate: 50,
+               stretch: 0,
+               depth: 100,
+               modifier: 1,
+               slideShadows: true,
+             }}
+             modules={[EffectCoverflow, Pagination]}
+           >
        {
         data.map(({avatar, name, review}, index) => {
             return (
