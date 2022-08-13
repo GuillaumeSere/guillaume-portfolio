@@ -104,7 +104,7 @@
     }
 
     .about__cards{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 1rem;
         margin: 0 1.5rem;
     }
