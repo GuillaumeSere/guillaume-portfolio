@@ -89,4 +89,9 @@ footer a{
         flex-direction: column;
         gap: 1.5rem;
     }
+
+    .carre3,
+    .triangle4{
+        display: none;
+    }
 }
