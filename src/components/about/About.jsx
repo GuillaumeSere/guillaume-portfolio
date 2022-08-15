@@ -39,12 +39,12 @@ const About = () => {
 
             <p>
               Concepteur et intégrateur de sites internet.<br/>
-              Développer des algorithmes pour résourdre un problème.<br/>  
+              Développer des algorithmes pour résoudre un problème.<br/>  
             Créer des applications web dynamiques
             avec Javascript et React.<br/>
             Mettre en œuvre des test unitaires
             et d’intégration pour débugger le code.<br/>
-            Intéragir, et modéliser une API.<br/>
+            Interagir, et modéliser une API.<br/>
             Analyser la performance d'une application web.<br/>
             Assurer l'accessibilité d'un site web.<br/>
             Intégrer du contenu conformément à une maquette.
