@@ -14,7 +14,7 @@ const Footer = () => {
 
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="#about">À propos</a></li>
         <li><a href="#experience">Experience</a></li>
        {/* <li><a href="#serives">Services</a></li>*/ }
         <li><a href="#testimonials">Temoignages</a></li>
