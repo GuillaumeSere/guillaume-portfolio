@@ -6,6 +6,13 @@ import IMG3 from '../../assets/projet3.png';
 import IMG4 from '../../assets/projet4.png';
 import IMG5 from '../../assets/projet5.png';
 import IMG6 from '../../assets/projet6.png';
+import IMG7 from '../../assets/projet7.png';
+import IMG8 from '../../assets/projet8.png';
+import IMG9 from '../../assets/projet9.png';
+import IMG10 from '../../assets/projet10.png';
+import IMG11 from '../../assets/projet11.png';
+import IMG12 from '../../assets/projet12.png';
+
 
 const data = [
     {
@@ -49,6 +56,48 @@ const data = [
         title: 'Les petits plats',
         github: 'https://github.com/GuillaumeSere/GuillaumeSere_P7_21122021',
         demo: 'https://guillaumesere.github.io/GuillaumeSere_P7_21122021/'
+    },
+    {
+        id: 7,
+        image: IMG7,
+        title: 'GSL',
+        github: 'https://github.com/GuillaumeSere/google-maps-travel',
+        demo: 'https://guillaumesere.github.io/google-maps-travel/'
+    },
+    {
+        id: 8,
+        image: IMG8,
+        title: 'Fitness-Exercices',
+        github: 'https://github.com/GuillaumeSere/fitness-exercices',
+        demo: 'https://guillaumesere.github.io/fitness-exercices/'
+    },
+    {
+        id: 9,
+        image: IMG9,
+        title: 'API-Crypto',
+        github: 'https://github.com/GuillaumeSere/api-crypto',
+        demo: 'https://guillaumesere.github.io/api-crypto/'
+    },
+    {
+        id: 10,
+        image: IMG10,
+        title: 'NFT-React',
+        github: 'https://github.com/GuillaumeSere/nft-react',
+        demo: 'https://guillaumesere.github.io/nft-react/'
+    },
+    {
+        id: 11,
+        image: IMG11,
+        title: 'Google-Book-API',
+        github: 'https://github.com/GuillaumeSere/google-book-api',
+        demo: 'https://guillaumesere.github.io/google-book-api/'
+    },
+    {
+        id: 12,
+        image: IMG12,
+        title: 'Digital-Clock',
+        github: 'https://github.com/GuillaumeSere/DIGITAL-CLOCK',
+        demo: 'https://guillaumesere.github.io/DIGITAL-CLOCK/'
     },
 ];
 
