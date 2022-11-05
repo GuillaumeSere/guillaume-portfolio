@@ -62,7 +62,14 @@
 /* ================ media query (small) ===================== */
 @media screen and (max-width: 600px){
     .experience__container{
+        display: flex;
+        flex-wrap: wrap;
         gap: 1rem;
+    }
+
+    .experience__details{
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .experience__container > div{
