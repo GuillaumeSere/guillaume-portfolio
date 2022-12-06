@@ -8,21 +8,23 @@ import Portfolio from './components/portfolio/Portfolio';
 import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
+import Snowfall from 'react-snowfall'
 
 const App = () => {
-  return (
-    <>
-      <Header />
-      <Nav />
-      <About />
-      <Experience />
-     { /* <Services /> */ } 
-      <Portfolio />
-      <Testimonials />
-      <Contact />
-      <Footer />
-    </>
-  )
+    return (
+        <>
+            <Snowfall style={{ position: 'fixed',width: '100vw', height: '100vh'}} />
+            <Header />
+            <Nav />
+            <About />
+            <Experience />
+            { /* <Services /> */}
+            <Portfolio />
+            <Testimonials />
+            <Contact />
+            <Footer />
+        </>
+    )
 }
 
 export default App;
