@@ -7,7 +7,7 @@ import AVTR4 from '../../assets/avatar4.png';
 import AVTR5 from '../../assets/avatar5.png';
 
 // import Swiper core and required modules
-import {  Pagination } from 'swiper';
+import { Pagination } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -15,7 +15,7 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 // import required modules
-import { EffectCoverflow} from "swiper";
+import { EffectCoverflow } from "swiper";
 
 const data = [
     {
@@ -46,43 +46,43 @@ const data = [
 ]
 
 const Testimonials = () => {
-  return (
-    <section id="testimonials">
-      <h5>Commentaires</h5>
-      <h2>Témoignages</h2>
-      <div className="triangle3"></div>
-      <div className="carre2"></div>
+    return (
+        <section id="testimonials">
+            <h5>Commentaires</h5>
+            <h2>Témoignages</h2>
+            <div className="triangle3"></div>
+            <div className="carre2"></div>
 
-      <Swiper className="container container__testimonials"
-             effect={"coverflow"}
-             grabCursor={true}
-             centeredSlides={true}
-             slidesPerView={"auto"}
-             coverflowEffect={{
-               rotate: 50,
-               stretch: 0,
-               depth: 100,
-               modifier: 1,
-               slideShadows: true,
-             }}
-             modules={[EffectCoverflow, Pagination]}
-           >
-       {
-        data.map(({avatar, name, review}, index) => {
-            return (
-                <SwiperSlide key={index} className="testimonial">
-                <div className="client__avatar">
-                    <img src={avatar}/>
-                </div>    
-                    <h5 className='client__name'>{name}</h5>   
-                    <small className='client__review'>{review}</small>
-            </SwiperSlide>
-            )
-        })
-       }
-      </Swiper>
-    </section>
-  )
+            <Swiper className="container container__testimonials"
+                effect={"coverflow"}
+                grabCursor={true}
+                centeredSlides={true}
+                slidesPerView={"auto"}
+                coverflowEffect={{
+                    rotate: 50,
+                    stretch: 0,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows: true,
+                }}
+                modules={[EffectCoverflow, Pagination]}
+            >
+                {
+                    data.map(({ avatar, name, review }, index) => {
+                        return (
+                            <SwiperSlide key={index} className="testimonial">
+                                <div className="client__avatar">
+                                    <img src={avatar} />
+                                </div>
+                                <h5 className='client__name'>{name}</h5>
+                                <small className='client__review'>{review}</small>
+                            </SwiperSlide>
+                        )
+                    })
+                }
+            </Swiper>
+        </section>
+    )
 }
 
 export default Testimonials;

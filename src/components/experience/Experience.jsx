@@ -56,7 +56,7 @@ const Experience = () => {
                     <img src={react} className="experience__details-icon" />
                     <div>
                     <h4>React</h4>
-                    <small className='text-light'>Intermédiaire</small>
+                    <small className='text-light'>IExpert</small>
                     </div>
                 </article>
                 <article className='experience__details'>
@@ -70,7 +70,7 @@ const Experience = () => {
                     <img src={redux} className="experience__details-icon" />
                     <div>
                     <h4>Redux</h4>
-                    <small className='text-light'>Débutant</small>
+                    <small className='text-light'>Intermédiaire</small>
                     </div>
                 </article>
                 <article className='experience__details'>
