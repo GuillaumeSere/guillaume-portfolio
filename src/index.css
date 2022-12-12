@@ -33,14 +33,33 @@ html{
     display: none;
 }
 
-body{
+
+body[data-theme=light] {
     font-family: 'Poppins', sans-serif;
-    background: black;
-    color: var(--color-white);
+    background-color: rgb(109, 109, 109);
     line-height: 1.7;
-   /* background-image: url(../src/assets/bg-texture.png);*/
+    color: black;
+    transition: background-color 1050ms ease-in-out;
     border: 3px solid var(--color-primary);
-}
+  }
+  
+  body[data-theme=dark] {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+    line-height: 1.7;
+    color: white;
+    transition: background-color 1050ms ease-in-out;
+    border: 3px solid var(--color-primary);
+  }
+
+  .dark{
+    position: absolute !important;
+    height: 40px;
+    width: 100px;
+    right: 0 !important;
+    top: 4rem !important;
+    margin-right: 1rem !important;
+  }
 
 /* ============= style general ================= */
 .container{
