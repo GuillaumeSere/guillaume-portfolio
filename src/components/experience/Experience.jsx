@@ -56,7 +56,7 @@ const Experience = () => {
                     <img src={react} className="experience__details-icon" />
                     <div>
                     <h4>React</h4>
-                    <small className='text-light'>IExpert</small>
+                    <small className='text-light'>Expert</small>
                     </div>
                 </article>
                 <article className='experience__details'>
