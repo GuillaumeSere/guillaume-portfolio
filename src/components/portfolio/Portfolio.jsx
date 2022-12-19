@@ -12,6 +12,9 @@ import IMG9 from '../../assets/projet9.png';
 import IMG10 from '../../assets/projet10.png';
 import IMG11 from '../../assets/projet11.png';
 import IMG12 from '../../assets/projet12.png';
+import IMG13 from '../../assets/projet13.png';
+import IMG14 from '../../assets/projet14.png';
+import IMG15 from '../../assets/projet15.png';
 
 
 const data = [
@@ -98,6 +101,27 @@ const data = [
         title: 'Digital-Clock',
         github: 'https://github.com/GuillaumeSere/DIGITAL-CLOCK',
         demo: 'https://guillaumesere.github.io/DIGITAL-CLOCK/'
+    },
+    {
+        id: 13,
+        image: IMG13,
+        title: 'API-SNCF',
+        github: 'https://github.com/GuillaumeSere/api-sncf',
+        demo: 'https://guillaumesere.github.io/api-sncf/'
+    },
+    {
+        id: 14,
+        image: IMG14,
+        title: 'NASA-MEDIA',
+        github: 'https://github.com/GuillaumeSere/nasa-media',
+        demo: 'https://guillaumesere.github.io/nasa-media/'
+    },
+    {
+        id: 15,
+        image: IMG15,
+        title: 'Live-radio',
+        github: 'https://github.com/GuillaumeSere/radio-browser',
+        demo: 'https://guillaumesere.github.io/radio-browser/'
     },
 ];
 
