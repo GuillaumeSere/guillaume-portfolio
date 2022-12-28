@@ -4,11 +4,21 @@ import { MdComputer } from 'react-icons/md';
 import { FaFacebookF } from 'react-icons/fa';
 import { TbBrandLinkedin } from 'react-icons/tb';
 import { FaTwitter } from 'react-icons/fa';
+import { Player } from '@lottiefiles/react-lottie-player';
+import animation from '../../assets/99312-developer-skills.json'
 
 const Footer = () => {
     return (
         <footer>
-            <a href="#" className='footer__logo'><MdComputer /></a>
+            <a href="#" className='footer__logo'>
+                <Player
+                    autoplay
+                    loop
+                    src={animation}
+                    style={{ height: '300px', width: '300px' }}
+                >
+                </Player>
+            </a>
             <div className="triangle4"></div>
             <div className="carre3"></div>
 
