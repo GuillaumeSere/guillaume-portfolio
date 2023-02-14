@@ -18,7 +18,7 @@ const Header = () => {
                         autoplay
                         loop
                         src={animation}
-                        style={{ height: '200px', width: '200px' }}
+                        style={{ height: '300px', width: '300px' }}
                     >
                     </Player>
                 </h5>
