@@ -57,7 +57,7 @@ body[data-theme=light] {
     height: 40px;
     width: 100px;
     right: 0 !important;
-    top: 4rem !important;
+    top: 2rem !important;
     margin-right: 1rem !important;
   }
 
@@ -152,13 +152,7 @@ img{
     }
 
     .dark{
-        position: absolute !important;
-        height: 40px;
-        width: 100px;
-        margin-top: 1rem;
-        right: 0 !important;
-        top: 0rem !important;
-        margin-right: 1rem !important;
+        display: none !important;
       }
 }
 
