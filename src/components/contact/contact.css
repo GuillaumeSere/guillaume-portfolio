@@ -60,6 +60,7 @@ input, textarea{
     color: var(--color-white);
 }
 
+
 /* ================ media query (medium) ===================== */
 @media screen and (max-width: 1024px){
     .container.contact__container{
