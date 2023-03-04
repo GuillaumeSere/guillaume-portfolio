@@ -36,7 +36,7 @@ const App = () => {
 
     return (
         <>
-            <DayNightToggle className='dark' size={40} onChange={handleChangeTheme} checked={isDarkMode} />
+            <DayNightToggle className='dark' size={20} onChange={handleChangeTheme} checked={isDarkMode} />
          {/* {   <Snowfall style={{ position: 'fixed',width: '100vw', height: '100vh'}} />} */}
             <Header />
             <Nav />
