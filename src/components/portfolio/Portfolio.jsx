@@ -49,9 +49,9 @@ const data = [
     {
         id: 5,
         image: IMG5,
-        title: 'Daily Routine',
-        github: 'https://github.com/GuillaumeSere/APP-yoga',
-        demo: 'https://guillaumesere.github.io/APP-yoga/'
+        title: 'Card Game',
+        github: 'https://github.com/GuillaumeSere/Card-Game',
+        demo: 'https://guillaumesere.github.io/Card-Game/'
     },
     {
         id: 6,
@@ -84,9 +84,9 @@ const data = [
     {
         id: 10,
         image: IMG10,
-        title: 'NFT-React',
-        github: 'https://github.com/GuillaumeSere/nft-react',
-        demo: 'https://guillaumesere.github.io/nft-react/'
+        title: 'Tetris-React',
+        github: 'https://github.com/GuillaumeSere/react-tetris',
+        demo: 'https://guillaumesere.github.io/react-tetris/'
     },
     {
         id: 11,
