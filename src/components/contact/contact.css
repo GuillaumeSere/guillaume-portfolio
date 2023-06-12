@@ -26,7 +26,7 @@
 
 .contact__option:hover{
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: var(--color-primary);
 }
 
 .contact__option-icon{
@@ -55,7 +55,7 @@ input, textarea{
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid var(--color-primary-variant);
+    border: 2px solid var(--color-primary);
     resize: none;
     color: var(--color-white);
 }
