@@ -46,7 +46,7 @@
 
 .about__card{
     background: var(--color-bg-variant);
-    border: 1px solid transparent;
+    border: 2px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
@@ -55,7 +55,7 @@
 
 .about__card:hover{
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border: 2px solid var(--color-primary);
     cursor: default;
 }
 
