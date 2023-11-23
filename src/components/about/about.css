@@ -34,6 +34,10 @@
     margin-right: 15rem;
 }
 
+.about__me-image img{
+    border-radius: 50%;
+}
+
 .about__me-image:hover{
     transform: rotate(0);
 }
