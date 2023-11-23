@@ -36,6 +36,11 @@
 
 .about__me-image img{
     border-radius: 50%;
+    padding: 0.2rem;
+    border: 2px solid green;
+    display: block;
+    object-fit: cover;
+    width: 100%;
 }
 
 .about__me-image:hover{
