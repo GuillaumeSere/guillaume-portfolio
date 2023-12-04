@@ -116,9 +116,21 @@ header{
         height: 62rem;
     }
 
-    .header__socials,
-    .scroll__down{
-        display: none;
+    .header__socials{
+        position: relative;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: -4rem;
+    }
+    .header__socials a{
+        margin-right: 1rem;
+    }
+    .header__socials::after{
+       display: none;
+    }
+    
+    .header__socials::before{
+    display: none;
     }
 
     .triangle,
@@ -130,6 +142,10 @@ header{
 @media screen and (max-width: 450px){
     header{
         height: 55rem;
+    }
+    .header__socials{
+        flex-direction: row;
+        justify-content: center;
     }
     .me{
         width: 15rem;
