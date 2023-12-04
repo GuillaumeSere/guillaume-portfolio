@@ -21,9 +21,9 @@ const data = [
     {
         id: 1,
         image: IMG1,
-        title: 'Fisheye',
-        github: 'https://github.com/GuillaumeSere/GuillaumeSere_P6_26102021',
-        demo: 'https://guillaumesere.github.io/GuillaumeSere_P6_26102021/'
+        title: 'Master Mind',
+        github: 'https://github.com/GuillaumeSere/master-mind',
+        demo: 'https://guillaumesere.github.io/master-mind/'
     },
     {
         id: 2,
@@ -42,9 +42,9 @@ const data = [
     {
         id: 4,
         image: IMG4,
-        title: 'Kasa',
-        github: 'https://github.com/GuillaumeSere/guillaumesere_11_28032022',
-        demo: 'https://guillaumesere.github.io/guillaumesere_11_28032022/'
+        title: 'Sudoku',
+        github: 'https://github.com/GuillaumeSere/Sudoku',
+        demo: 'https://guillaumesere.github.io/Sudoku/'
     },
     {
         id: 5,
@@ -70,9 +70,9 @@ const data = [
     {
         id: 8,
         image: IMG8,
-        title: 'Fitness-Exercices',
-        github: 'https://github.com/GuillaumeSere/fitness-exercices',
-        demo: 'https://guillaumesere.github.io/fitness-exercices/'
+        title: 'React-Country',
+        github: 'https://github.com/GuillaumeSere/rest-countries-api',
+        demo: 'https://guillaumesere.github.io/rest-countries-api/'
     },
     {
         id: 9,
