@@ -12,7 +12,15 @@ const Contact = () => {
         const sendEmail = (e) => {
             e.preventDefault();
         
-            emailjs.sendForm('service_69wivog', 'template_8xb3op5', form.current, 'wXDv_hlzx1MHP--6Y')
+            emailjs.sendForm('service_f2otagg', 'template_8xb3op5', form.current, '9Wd2D9zfV7aimnGD6')
+            .then(
+                (response) => {
+                    console.log('Email sent successfully:', response);
+                },
+                (error) => {
+                    console.error('Failed to send email:', error);
+                }
+            );
 
             e.target.reset();
           };
