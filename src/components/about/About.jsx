@@ -23,17 +23,17 @@ const About = () => {
                 <article className='about__card'>
                     <FaAward className='about__icon'/>
                     <h5>Experience</h5>
-                    <small>+3 ans</small>
+                    <small>+4 ans</small>
                 </article>
                 <article className='about__card'>
                     <FiUsers className='about__icon'/>
                     <h5>Communauté</h5>
-                    <small>+200 Developpeurs</small>
+                    <small>+500 Developpeurs</small>
                 </article>
                 <article className='about__card'>
                     <VscFolderLibrary className='about__icon'/>
                     <h5>Projets</h5>
-                    <small>+14 complet</small>
+                    <small>+20 complets</small>
                 </article>
             </div>
 
@@ -47,7 +47,8 @@ const About = () => {
             Interagir, et modéliser une API.<br/>
             Analyser la performance d'une application web.<br/>
             Assurer l'accessibilité d'un site web.<br/>
-            Intégrer du contenu conformément à une maquette.
+            Intégrer du contenu conformément à une maquette.<br/>
+            Utilisation facile de l'IA grace à Chat GPT
             </p>
 
             <a href="#contact" className='btn btn-primary'>Contact</a>
