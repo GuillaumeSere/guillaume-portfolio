@@ -1,9 +1,8 @@
 import React from 'react';
 import './footer.css';
-import { MdComputer } from 'react-icons/md';
-import { FaFacebookF } from 'react-icons/fa';
-import { TbBrandLinkedin } from 'react-icons/tb';
-import { FaTwitter } from 'react-icons/fa';
+import { SiNpm } from "react-icons/si";
+import { ImLinkedin } from "react-icons/im";
+import { ImGithub } from "react-icons/im";
 import { Player } from '@lottiefiles/react-lottie-player';
 import animation from '../../assets/99312-developer-skills.json'
 
@@ -32,9 +31,9 @@ const Footer = () => {
             </ul>
 
             <div className="footer__socials">
-                <a href="https://facebook.com" target="_blank"><FaFacebookF /></a>
-                <a href="https://linkedin.com" target="_blank"><TbBrandLinkedin /></a>
-                <a href="https://twitter.com" target="_blank"><FaTwitter /></a>
+                <a href="https://www.npmjs.com/~guillaumesere" target="_blank" title="Visitez mon profil NPM"><SiNpm /></a>
+                <a href="https://linkedin.com" target="_blank" title="Connectez-vous avec moi sur LinkedIn"><ImLinkedin /></a>
+                <a href="https://github.com/GuillaumeSere" target="_blank" title="Explorez mes projets sur GitHub"><ImGithub /></a>
             </div>
 
             <div className="footer__copyright">

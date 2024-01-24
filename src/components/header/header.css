@@ -10,6 +10,7 @@ header{
     position: relative;
 }
 
+
 .triangle{
     position: absolute;
     width: 0;
@@ -74,6 +75,11 @@ header{
     width: 1px;
     height: 2rem;
     background: var(--color-primary);
+}
+
+.npm{
+    width: 50px;
+    height: 50px;
 }
 
 /* =================== ME ===================== */
