@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Header from './components/header/Header';
 import Nav from './components/nav/Nav';
 import About from './components/about/About';
@@ -12,26 +12,31 @@ import DayNightToggle from 'react-day-and-night-toggle';
 
 const App = () => {
 
-    const [isDarkMode, setIsDarkMode] = useState(localStorage.getItem('data-theme') === 'dark' ? true : false)
-
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
-      const newColorScheme = e.matches ? 'dark' : 'light'
+    const storedTheme = localStorage.getItem('data-theme');
+    const defaultDarkMode = storedTheme === 'dark';
   
-      setIsDarkMode(newColorScheme === 'dark' ? true : false)
-      localStorage.setItem('data-theme', newColorScheme)
-      document.body.setAttribute('data-theme', localStorage.getItem('data-theme'))
-    })
+    const [isDarkMode, setIsDarkMode] = useState(defaultDarkMode);
+  
+    useEffect(() => {
+      window.matchMedia('(prefers-color-scheme : dark)').addEventListener('change', (e) => {
+        const newColorScheme = e.matches ? 'dark' : 'light';
+        setIsDarkMode(newColorScheme === 'dark');
+        localStorage.setItem('data-theme', newColorScheme);
+        document.body.setAttribute('data-theme', localStorage.getItem('data-theme'));
+      });
+  
+      // Cleanup event listener on component unmount
+      return () => {
+        window.matchMedia('(prefers-color-scheme : dark)').removeEventListener('change', () => {});
+      };
+    }, []);
   
     const handleChangeTheme = () => {
-      setIsDarkMode(!isDarkMode)
-      if(!isDarkMode) {
-        localStorage.setItem('data-theme', 'dark')
-        document.body.setAttribute('data-theme', 'dark')
-      } else {
-        localStorage.setItem('data-theme', 'light')
-        document.body.setAttribute('data-theme', 'light')
-      }
-    }
+      const newTheme = isDarkMode ? 'light' : 'dark';
+      setIsDarkMode(!isDarkMode);
+      localStorage.setItem('data-theme', newTheme);
+      document.body.setAttribute('data-theme', newTheme);
+    };
 
     return (
         <>
