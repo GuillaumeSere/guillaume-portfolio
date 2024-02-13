@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/guillaume-portfolio/static/css/main.e1c4455d.css",
-    "main.js": "/guillaume-portfolio/static/js/main.080466bb.js",
+    "main.js": "/guillaume-portfolio/static/js/main.bdf4f472.js",
     "static/media/projet7.png": "/guillaume-portfolio/static/media/projet7.5e729f9546e3cddb41ae.png",
     "static/media/projet15.png": "/guillaume-portfolio/static/media/projet15.a70cbd9647c69e67798a.png",
     "static/media/projet13.png": "/guillaume-portfolio/static/media/projet13.9903d12e3347ce96d7fe.png",
@@ -17,7 +17,7 @@
     "static/media/projet9.png": "/guillaume-portfolio/static/media/projet9.51f4250c183d8497781d.png",
     "static/media/projet12.png": "/guillaume-portfolio/static/media/projet12.5d9f37e925a3b6d1f478.png",
     "static/media/avatar4.png": "/guillaume-portfolio/static/media/avatar4.0dc23b78eb0c2703a934.png",
-    "static/media/CV-Guillaume-SERE.pdf": "/guillaume-portfolio/static/media/CV-Guillaume-SERE.749fb6ce3ff38ccb7e34.pdf",
+    "static/media/Cv-Guillaume-SERE.pdf": "/guillaume-portfolio/static/media/Cv-Guillaume-SERE.749fb6ce3ff38ccb7e34.pdf",
     "static/media/redux.png": "/guillaume-portfolio/static/media/redux.010fcccb3cd77a85a1f7.png",
     "static/media/home-pic2.png": "/guillaume-portfolio/static/media/home-pic2.6bcffb56bd0efaa47767.png",
     "static/media/avatar3.png": "/guillaume-portfolio/static/media/avatar3.edd8b3559b4959749ce7.png",
@@ -34,10 +34,10 @@
     "static/media/npm.png": "/guillaume-portfolio/static/media/npm.5904c46fdce9a3192c3b.png",
     "index.html": "/guillaume-portfolio/index.html",
     "main.e1c4455d.css.map": "/guillaume-portfolio/static/css/main.e1c4455d.css.map",
-    "main.080466bb.js.map": "/guillaume-portfolio/static/js/main.080466bb.js.map"
+    "main.bdf4f472.js.map": "/guillaume-portfolio/static/js/main.bdf4f472.js.map"
   },
   "entrypoints": [
     "static/css/main.e1c4455d.css",
-    "static/js/main.080466bb.js"
+    "static/js/main.bdf4f472.js"
   ]
 }
