@@ -72,11 +72,12 @@ input, textarea{
     background:  #01b33d;
     color:white;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 .modal-message{
     font-size: 20px;
+    text-align: center;
 }
 
 .modal-btn{
@@ -92,6 +93,7 @@ input, textarea{
 
 .modal-btn:hover{
     background: #01ff56;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 
