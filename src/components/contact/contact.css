@@ -69,8 +69,9 @@ input, textarea{
     padding: 2rem;
     width: 350px;
     height: 200px;
-    background:  #01b33d;
-    color:white;
+    background:  black;
+    color:#01b33d;
+    border: 2px solid #01b33d;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
@@ -82,6 +83,8 @@ input, textarea{
 
 .modal-btn{
     position: absolute;
+    color: #01b33d;
+    border: 2px solid #01b33d;
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -93,6 +96,7 @@ input, textarea{
 
 .modal-btn:hover{
     background: #01ff56;
+    color: black;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
