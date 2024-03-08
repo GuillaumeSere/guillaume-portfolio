@@ -14,7 +14,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
             <div className="about__me-image">
-                <img className='logo-about' src={ME} alt="about image" />
+                <img className='logo-about' src={ME} alt="Moi" />
             </div>
         </div>
 
@@ -48,7 +48,7 @@ const About = () => {
             Analyser la performance d'une application web.<br/>
             Assurer l'accessibilité d'un site web.<br/>
             Intégrer du contenu conformément à une maquette.<br/>
-            Utilisation facile de l'IA grace à Chat GPT
+            Utilisation de l'IA.
             </p>
 
             <a href="#contact" className='btn btn-primary'>Contact</a>
