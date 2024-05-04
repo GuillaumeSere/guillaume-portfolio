@@ -86,7 +86,7 @@ header{
     width: 15rem;
     height: 15rem;
     position: absolute;
-    margin-top: 4rem;
+    margin-top: -5rem;
     border-radius: 50%;
     overflow: hidden;
     border: 5px solid var(--color-primary);
