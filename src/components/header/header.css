@@ -1,7 +1,6 @@
 header{
     height: 100vh;
     margin-top: 2rem;
-    overflow: hidden;
 }
 
 .header__container{
@@ -84,8 +83,8 @@ header{
 
 /* =================== ME ===================== */
 .me{
-    width: 22rem;
-    height: 22rem;
+    width: 15rem;
+    height: 15rem;
     position: absolute;
     margin-top: 4rem;
     border-radius: 50%;
