@@ -43,7 +43,7 @@
     width: 100%;
 }
 
-.about__me-image:hover{
+.about__me-image{
     transform: rotate(0);
 }
 
@@ -76,6 +76,10 @@
 
 .about__card h5{
     font-size: 0.95rem;
+}
+
+.about__card a:hover{
+    color: black;
 }
 
 .about__card small{

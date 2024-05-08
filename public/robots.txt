@@ -1,1 +1,1 @@
-User-agent: *
+User-agent: https://guillaumesere.github.io/guillaume-portfolio/

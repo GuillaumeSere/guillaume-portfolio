@@ -17,7 +17,6 @@ import sass from '../../assets/sass.png';
 const Experience = () => {
   return (
     <section id="experience">
-      <h5>Qu'elle compétence j'ai</h5>
       <h2>Mon Experience</h2>
 
       <div className="container experience__container">
@@ -49,7 +48,7 @@ const Experience = () => {
                     <img src={bootstrap} className="experience__details-icon" />
                     <div>
                     <h4>Bootstrap</h4>
-                    <small className='text-light'>Intermédiaire</small>
+                    <small className='text-light'>Expert</small>
                     </div>
                 </article>
                 <article className='experience__details'>
@@ -63,7 +62,7 @@ const Experience = () => {
                     <img src={tailwin} className="experience__details-icon" />
                     <div>
                     <h4>Tailwind</h4>
-                    <small className='text-light'>Débutant</small>
+                    <small className='text-light'>Intermédiaire</small>
                     </div>
                 </article>
                 <article className='experience__details'>

@@ -38,7 +38,6 @@ const Contact = () => {
 
     return (
         <section id="contact">
-            <h5>Entrer en Contact</h5>
             <h2>Contactez Moi</h2>
 
             <div className="container contact__container">
@@ -46,8 +45,8 @@ const Contact = () => {
                     <article className="contact__option">
                         <MdOutlineEmail className='contact__option-icon' />
                         <h4>Email</h4>
-                        <h5>guillaumesere@hotmail.fr</h5>
-                        <a href="mailto:guillaumesere@hotmail.fr" target="_blank" rel="noreferrer">Envoyer votre message</a>
+                        <h5>guillaumesere60@gmail.com</h5>
+                        <a href="mailto:guillaumesere60@gmail.com" target="_blank" rel="noreferrer">Envoyer votre message</a>
                     </article>
                     <article className="contact__option">
                         <TbBrandLinkedin className='contact__option-icon' />

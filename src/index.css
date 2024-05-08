@@ -61,6 +61,14 @@ body[data-theme=light] {
     margin-right: 1rem !important;
   }
 
+  .about__card a {
+    color: black; /* Couleur des liens pour le thème light */
+}
+
+body[data-theme=dark] .about__card a {
+    color: white; /* Couleur des liens pour le thème dark */
+}
+
 /* ============= style general ================= */
 .container{
     width: var(--container-width-lg);

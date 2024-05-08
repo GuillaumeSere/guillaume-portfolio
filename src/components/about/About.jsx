@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import ME from '../../assets/home-pic2.png';
+import ME from '../../assets/home-pic2.gif';
 import {FaAward} from 'react-icons/fa';
 import {FiUsers} from 'react-icons/fi';
 import {VscFolderLibrary} from 'react-icons/vsc';
@@ -8,7 +8,6 @@ import {VscFolderLibrary} from 'react-icons/vsc';
 const About = () => {
   return (
     <section id="about">
-      <h5>Faire connaissance</h5>
       <h2>À propos de moi</h2>
 
       <div className="container about__container">
@@ -32,7 +31,7 @@ const About = () => {
                 </article>
                 <article className='about__card'>
                     <VscFolderLibrary className='about__icon'/>
-                    <h5>Projets</h5>
+                    <a href="https://guillaumesere.github.io/site-story/" target="_blank" rel="noreferrer"><h5>Projets</h5></a>
                     <small>+20 complets</small>
                 </article>
             </div>
