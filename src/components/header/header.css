@@ -81,6 +81,15 @@ header{
     height: 50px;
 }
 
+.mentor{
+    margin-bottom: 0.5rem;
+    width: 50px;
+}
+
+.mentor:hover{
+    filter: brightness(0) invert(1);
+}
+
 /* =================== ME ===================== */
 .me{
     width: 15rem;
