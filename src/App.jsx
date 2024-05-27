@@ -1,4 +1,4 @@
-import React, { useState, useEffect  } from 'react';
+import React, { useState } from 'react';
 import Header from './components/header/Header';
 import Nav from './components/nav/Nav';
 import About from './components/about/About';
@@ -9,35 +9,12 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Snowfall from 'react-snowfall';
 import DayNightToggle from 'react-day-and-night-toggle';
+import Cursor from './components/cursor/Cursor';
 
 const App = () => {
 
     const [isDarkMode, setIsDarkMode] = useState(localStorage.getItem('data-theme') === 'dark' ? true : false)
 
-    useEffect(() => {
-        document.body.setAttribute('data-theme', localStorage.getItem('data-theme'));
-
-        const cursor = document.querySelector('.cursor');
-
-        const handleMouseMove = (e) => {
-            cursor.setAttribute('style', 'top:' + (e.pageY - 20) + 'px; left:' + (e.pageX - 20) + 'px;');
-        };
-
-        const handleClick = () => {
-            cursor.classList.add('expand');
-            setTimeout(() => {
-                cursor.classList.remove('expand');
-            }, 500);
-        };
-
-        document.addEventListener('mousemove', handleMouseMove);
-        document.addEventListener('click', handleClick);
-
-        return () => {
-            document.removeEventListener('mousemove', handleMouseMove);
-            document.removeEventListener('click', handleClick);
-        };
-    }, []);
 
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
       const newColorScheme = e.matches ? 'dark' : 'light'
@@ -70,7 +47,7 @@ const App = () => {
             <Testimonials />
             <Contact />
             <Footer />
-            <div className="cursor"></div>
+            <Cursor />
         </>
     )
 }
