@@ -1,7 +1,7 @@
 .cursor {
     width: 40px;
     height: 40px;
-    border: 1px dashed white;
+    border: 1px dashed green;
     border-radius: 50%;
     position: absolute;
     animation: Anim1 1s infinite alternate;
@@ -23,7 +23,7 @@
 .expand {
     animation: Anim2 .5s;
     background: green;
-    border: 1px solid white;
+    border: 1px solid green;
 }
 @keyframes Anim1 {
     from {
