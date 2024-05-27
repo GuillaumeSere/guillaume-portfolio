@@ -41,6 +41,7 @@ body[data-theme=light] {
     color: black;
     transition: background-color 1050ms ease-in-out;
     border: 3px solid var(--color-primary);
+    cursor:none;
   }
   
   body[data-theme=dark] {
@@ -50,6 +51,7 @@ body[data-theme=light] {
     color: white;
     transition: background-color 1050ms ease-in-out;
     border: 3px solid var(--color-primary);
+    cursor:none;
   }
 
   .dark{
