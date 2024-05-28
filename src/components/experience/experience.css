@@ -72,6 +72,7 @@
     .experience__details{
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
     }
 
     .experience__container > div{
