@@ -41,7 +41,7 @@ body[data-theme=light] {
     color: black;
     transition: background-color 1050ms ease-in-out;
     border: 3px solid var(--color-primary);
-    cursor:none;
+    cursor: none;
   }
   
   body[data-theme=dark] {
@@ -51,7 +51,7 @@ body[data-theme=light] {
     color: white;
     transition: background-color 1050ms ease-in-out;
     border: 3px solid var(--color-primary);
-    cursor:none;
+    cursor: none;
   }
 
   .dark{
@@ -157,6 +157,15 @@ img{
     section > h2{
         margin-bottom: 2rem;
     }
+
+    .dark{
+        position: absolute !important;
+        height: 40px;
+        width: 100px;
+        right: 0rem !important;
+        top: 1rem !important;
+        margin-right: 1rem !important;
+      }
 
 }
 
