@@ -28,16 +28,16 @@ const data = [
     {
         id: 2,
         image: IMG2,
-        title: 'Ohmyfood',
-        github: 'https://github.com/GuillaumeSere/GuillaumeSere_03_24092021.github.io',
-        demo: 'https://guillaumesere.github.io/GuillaumeSere_03_24092021.github.io/'
+        title: 'Generateur Mots de Passe',
+        github: 'https://github.com/GuillaumeSere/generate-password',
+        demo: 'https://guillaumesere.github.io/generate-password/'
     },
     {
         id: 3,
         image: IMG3,
-        title: 'Wealth Health',
-        github: 'https://github.com/GuillaumeSere/wealth-health',
-        demo: 'https://guillaumesere.github.io/wealth-health/'
+        title: 'Plantes-Water',
+        github: 'https://github.com/GuillaumeSere/plantes-water',
+        demo: 'https://guillaumesere.github.io/plantes-water/'
     },
     {
         id: 4,
@@ -56,9 +56,9 @@ const data = [
     {
         id: 6,
         image: IMG6,
-        title: 'Les petits plats',
-        github: 'https://github.com/GuillaumeSere/GuillaumeSere_P7_21122021',
-        demo: 'https://guillaumesere.github.io/GuillaumeSere_P7_21122021/'
+        title: 'GEO AIR',
+        github: 'https://github.com/GuillaumeSere/GEO-AIR',
+        demo: 'https://guillaumesere.github.io/GEO-AIR/'
     },
     {
         id: 7,
@@ -84,16 +84,16 @@ const data = [
     {
         id: 10,
         image: IMG10,
-        title: 'Tetris-React',
-        github: 'https://github.com/GuillaumeSere/react-tetris',
-        demo: 'https://guillaumesere.github.io/react-tetris/'
+        title: 'Sites Story',
+        github: 'https://github.com/GuillaumeSere/site-story',
+        demo: 'https://guillaumesere.github.io/site-story/'
     },
     {
         id: 11,
         image: IMG11,
-        title: 'Google-Book-API',
-        github: 'https://github.com/GuillaumeSere/google-book-api',
-        demo: 'https://guillaumesere.github.io/google-book-api/'
+        title: 'QR Generator',
+        github: 'https://github.com/GuillaumeSere/qr-code',
+        demo: 'https://guillaumesere.github.io/qr-code/'
     },
     {
         id: 12,
