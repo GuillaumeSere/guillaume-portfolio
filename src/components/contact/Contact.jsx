@@ -52,7 +52,7 @@ const Contact = () => {
                         <TbBrandLinkedin className='contact__option-icon' />
                         <h4>Linkedin</h4>
                         <h5>Guillaume SERE</h5>
-                        <a href="https://www.linkedin.com/in/guillaume-s%C3%A9r%C3%A9-2019a7116/" target="_blank" rel="noreferrer">Contactez moi</a>
+                        <a href="https://www.linkedin.com/in/guillaume-séré/" target="_blank" rel="noreferrer">Contactez moi</a>
                     </article>
                     <article className="contact__option">
                         <BsWhatsapp className='contact__option-icon' />
