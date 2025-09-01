@@ -23,7 +23,7 @@ const data = [
         image: IMG1,
         title: 'Master Mind',
         github: 'https://github.com/GuillaumeSere/master-mind',
-        demo: 'https://guillaumesere.github.io/master-mind/'
+        demo: 'https://master-mind-khaki.vercel.app/'
     },
     {
         id: 2,
@@ -44,7 +44,7 @@ const data = [
         image: IMG4,
         title: 'Sudoku',
         github: 'https://github.com/GuillaumeSere/Sudoku',
-        demo: 'https://guillaumesere.github.io/Sudoku/'
+        demo: 'https://sudoku-five-rust.vercel.app/'
     },
     {
         id: 5,
@@ -79,7 +79,7 @@ const data = [
         image: IMG9,
         title: 'API-Crypto',
         github: 'https://github.com/GuillaumeSere/api-crypto',
-        demo: 'https://guillaumesere.github.io/api-crypto/'
+        demo: 'https://crypto-brown-chi.vercel.app/'
     },
     {
         id: 10,
