@@ -49,9 +49,9 @@ const data = [
     {
         id: 5,
         image: IMG5,
-        title: 'Card Game',
-        github: 'https://github.com/GuillaumeSere/Card-Game',
-        demo: 'https://guillaumesere.github.io/Card-Game/'
+        title: 'Auto Market',
+        github: 'https://github.com/GuillaumeSere/car',
+        demo: 'https://car-mu-drab.vercel.app/'
     },
     {
         id: 6,
@@ -63,9 +63,9 @@ const data = [
     {
         id: 7,
         image: IMG7,
-        title: 'GSL',
-        github: 'https://github.com/GuillaumeSere/google-maps-travel',
-        demo: 'https://guillaumesere.github.io/google-maps-travel/'
+        title: 'Prise Medoc',
+        github: 'https://github.com/GuillaumeSere/prise-medoc',
+        demo: 'https://prise-medoc.vercel.app/'
     },
     {
         id: 8,
@@ -114,14 +114,14 @@ const data = [
         image: IMG14,
         title: 'NASA-MEDIA',
         github: 'https://github.com/GuillaumeSere/nasa-media',
-        demo: 'https://guillaumesere.github.io/nasa-media/'
+        demo: 'https://nasa-media.vercel.app/'
     },
     {
         id: 15,
         image: IMG15,
         title: 'Live-radio',
         github: 'https://github.com/GuillaumeSere/radio-browser',
-        demo: 'https://guillaumesere.github.io/radio-browser/'
+        demo: 'https://radio-browser-psi.vercel.app/'
     },
 ];
 
