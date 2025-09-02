@@ -23,7 +23,7 @@ const data = [
         image: IMG1,
         title: 'Master Mind',
         github: 'https://github.com/GuillaumeSere/master-mind',
-        demo: 'https://master-mind-khaki.vercel.app/'
+        demo: 'https://master-mind-60.vercel.app/'
     },
     {
         id: 2,
@@ -37,28 +37,28 @@ const data = [
         image: IMG3,
         title: 'Plantes-Water',
         github: 'https://github.com/GuillaumeSere/plantes-water',
-        demo: 'https://guillaumesere.github.io/plantes-water/'
+        demo: 'https://plantes-water.vercel.app/'
     },
     {
         id: 4,
         image: IMG4,
         title: 'Sudoku',
         github: 'https://github.com/GuillaumeSere/Sudoku',
-        demo: 'https://sudoku-five-rust.vercel.app/'
+        demo: 'https://sudoku-60.vercel.app/'
     },
     {
         id: 5,
         image: IMG5,
         title: 'Auto Market',
         github: 'https://github.com/GuillaumeSere/car',
-        demo: 'https://car-mu-drab.vercel.app/'
+        demo: 'https://auto-markets.vercel.app/'
     },
     {
         id: 6,
         image: IMG6,
         title: 'GEO AIR',
         github: 'https://github.com/GuillaumeSere/GEO-AIR',
-        demo: 'https://guillaumesere.github.io/GEO-AIR/'
+        demo: 'https://geo-air.vercel.app/'
     },
     {
         id: 7,
@@ -79,14 +79,14 @@ const data = [
         image: IMG9,
         title: 'API-Crypto',
         github: 'https://github.com/GuillaumeSere/api-crypto',
-        demo: 'https://crypto-brown-chi.vercel.app/'
+        demo: 'https://cours-crypto.vercel.app/'
     },
     {
         id: 10,
         image: IMG10,
         title: 'Sites Story',
         github: 'https://github.com/GuillaumeSere/site-story',
-        demo: 'https://guillaumesere.github.io/site-story/'
+        demo: 'https://site-story.vercel.app/'
     },
     {
         id: 11,
@@ -107,7 +107,7 @@ const data = [
         image: IMG13,
         title: 'API-SNCF',
         github: 'https://github.com/GuillaumeSere/api-sncf',
-        demo: 'https://guillaumesere.github.io/api-sncf/'
+        demo: 'https://train-sncf.vercel.app/'
     },
     {
         id: 14,
@@ -121,7 +121,7 @@ const data = [
         image: IMG15,
         title: 'Live-radio',
         github: 'https://github.com/GuillaumeSere/radio-browser',
-        demo: 'https://radio-browser-psi.vercel.app/'
+        demo: 'https://live-radios.vercel.app/'
     },
 ];
 
