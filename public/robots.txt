@@ -1,1 +1,4 @@
-User-agent: https://guillaumesere.github.io/guillaume-portfolio/
+User-agent: *
+Allow: /
+
+Sitemap: https://guillaume-sere.vercel.app/sitemap.xml
